@@ -1,0 +1,23 @@
+.calculadora{
+
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 90px;
+}
+.primeiro{
+
+    align-items: center;
+    display: flex;
+}
+.segundo{
+display: flex;
+align-items: center;
+}
+.terceiro{
+display: flex;
+align-items: center;
+}
+.botao{
+   
+}
