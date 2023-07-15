@@ -9,30 +9,47 @@
 </head>
 
 <body>
-    <p class="titulo">Calculadora em JavaScript</p>
 
     <div class="calculadora">
+        <p class="titulo">Calculadora em JavaScript</p>
         <div class="primeiro">
             <p>digite o primeiro numero:</p>
-       
-        <input type="text" placeholder="">
-    </div>
-    <div class="segundo">
-        <p>digite o segundo numero:</p>
-        
-        <input type="text" placeholder="">
-    </div>
-    <div class="terceiro">
-        <p>selecione uma operação</p>
-        <input type="text" placeholder="">
-        <div class="botao">
-            <input type="button"   >
-        </div>
-    </div>
-        </div>
 
+            <input type="text" placeholder="" id="numero1">
+        </div>
+        <div class="segundo">
+            <p>digite o segundo numero:</p>
+
+            <input type="text" placeholder="" id="numero2">
+        </div>
+        <div class="terceiro">
+            <p>selecione uma operação</p>
+            <select id="select">
+                <option value="+">
+                    adição
+                </option>
+                <option value="-">
+                    subtração
+                </option>
+                <option value="*">
+                    multiplicação
+                </option>
+                <option value="/">
+                    divisão
+                </option>
+            </select>
+            <div>
+                <button class="botao" id="calcular" onclick="calculadora()" >
+                    calcular
+                </button>
+            </div>
+        </div>
+<div> 
+<p id="resultado">  </p>    
+</div>
     </div>
 
 </body>
+<script src="script.js"></script>
 
 </html>

@@ -3,7 +3,7 @@
 display: flex;
 align-items: center;
 flex-direction: column;
-padding-top: 90px;
+padding-top: 100px;
 }
 .primeiro{
 
@@ -19,5 +19,6 @@ display: flex;
 align-items: center;
 }
 .botao{
-   
+   background-color: rgb(8, 192, 8);
+   color: white;
 }
