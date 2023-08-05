@@ -12,7 +12,15 @@ function calculadora() {
     if (select === '+') {
         p.innerHTML = parseInt(input1) + parseInt(input2)
     }
-
+if(select === '-') {
+    p.innerHTML = parseInt(input1) - parseInt(input2)
+}
+if(select === '/') {
+    p.innerHTML = parseInt(input1) / parseInt(input2)
+}
+if(select === '*') {
+    p.innerHTML = parseInt(input1) * parseInt(input2)
+}
 }
 
 
